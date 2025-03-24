@@ -20,7 +20,7 @@ const Contact = () => {
     console.log(message);
 
     try {
-      const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}}/submit`, {
+      const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/submit`, {
         email,
         name,
         subject,
